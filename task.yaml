@@ -1,0 +1,11 @@
+read_notebook_task:
+  description: >
+    Ler o conteúdo do notebook, extraindo as partes relevantes.
+  expected_output: >
+    Texto contendo código-fonte e anotações de markdown extraídas do notebook.
+
+generate_readme_task:
+  description: >
+    Usar o conteúdo extraído do notebook para gerar um README.md descritivo e informativo.
+  expected_output: >
+    Um arquivo README.md gerado com base no conteúdo do notebook.
